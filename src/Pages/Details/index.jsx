@@ -1,13 +1,23 @@
-import { Container } from './styles'
-import { Button } from '../../components/Button'
+import { Container, Content } from './styles'
 import { Header } from '../../components/Header'
+import { Tag } from '../../components/Tag'
+import { ButtonText } from '../../components/ButtonText'
+
 
 export function Details(){
   return(
     <Container>
       <Header />
-      <h1>Hello</h1>
-      <Button title='Salvar' />
+        <main>
+          <Content>
+            <ButtonText title="voltar"/>
+            <h1>Novo Filme</h1>
+              
+            
+          </Content>
+
+        </main>
+      
     </Container>
     
   )

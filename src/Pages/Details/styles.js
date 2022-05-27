@@ -9,4 +9,20 @@ export const Container = styled.div`
   grid-template-areas:
     'header'
     'content';
+
+  > main {
+    margin-top: 4rem;
+    grid-area: content;
+    overflow-y: scroll;
+  }
+`
+export const Content = styled.div`
+  max-width: 103rem;
+  margin: 0 auto;
+
+  > h1 {
+    font-size: 3.6rem;
+    line-height: 4.7rem;
+    margin-top: 2.4rem;
+  }
 `
