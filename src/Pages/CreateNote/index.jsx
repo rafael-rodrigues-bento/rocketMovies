@@ -4,6 +4,7 @@ import { ButtonText } from '../../components/ButtonText'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import { NoteItem } from '../../components/NoteItem'
+import { Link } from 'react-router-dom'
 
 
 export function CreateNote(){
@@ -12,7 +13,9 @@ export function CreateNote(){
       <Header/>
       <main>
         <Form>
-          <ButtonText title="voltar" />
+          <Link to='/'>
+            <ButtonText title="voltar" />
+          </Link>
           <h1>Novo filme</h1>
           <div>
             <Input placeholder="Título" />

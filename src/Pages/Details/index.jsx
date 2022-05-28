@@ -4,6 +4,7 @@ import { Tag } from '../../components/Tag'
 import { ButtonText } from '../../components/ButtonText'
 import {AiFillStar, AiOutlineStar} from "react-icons/ai"
 import { BiTime } from "react-icons/bi"
+import { Link } from "react-router-dom"
 
 
 
@@ -13,7 +14,9 @@ export function Details(){
       <Header />
         <main>
           <Content>
-            <ButtonText title="Voltar"/>
+            <Link to="/">
+              <ButtonText title="Voltar"/>
+            </Link>
             <div>
               <h1>Interestellar</h1>
               <AiFillStar color="#FF859B"/>

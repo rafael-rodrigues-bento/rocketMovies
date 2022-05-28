@@ -17,6 +17,12 @@ export const Form = styled.form`
     gap: 4rem;
   }
 
+  h1 {
+    margin-top: 2.4rem;
+    font-size: 3.6rem;
+    line-height: 4.7rem;
+  }
+
   p {
     font-size: 2rem;
     line-height: 2.6rem;

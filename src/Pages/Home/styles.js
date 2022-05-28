@@ -10,10 +10,6 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-bottom: 3.6rem;
-
-    > button {
-      max-width: 20rem;
-    }
   }
 
   h2 {

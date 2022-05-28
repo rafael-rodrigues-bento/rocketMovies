@@ -28,7 +28,7 @@ export const Profile = styled.div`
   align-items: center;
   padding-left: 6.4rem;
 
-  > img {
+  .avatar {
     width: 6.4rem;
     height: 6.4rem;
     border-radius: 50%;
