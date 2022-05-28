@@ -14,15 +14,44 @@ export const Container = styled.div`
     margin-top: 4rem;
     grid-area: content;
     overflow-y: scroll;
+    overflow: auto;
   }
 `
 export const Content = styled.div`
-  max-width: 103rem;
-  margin: 0 auto;
+  max-width: 200rem;
+  margin: 0 12rem;
 
-  > h1 {
-    font-size: 3.6rem;
+  > div {
+    font-size: 1.8rem;
     line-height: 4.7rem;
     margin-top: 2.4rem;
+    margin-bottom: 4rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    h1 {
+      margin-right: 1.9rem;
+    }
+
+    img {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+    }
+
+    span {
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+    }
+  }
+
+  > p {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    text-align: justify;
+
+    margin-top: 4rem;
   }
 `
